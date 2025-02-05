@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--<h2>JAVA Script 16 jan Assignment</h2>
+       <!-- <script>
+        let marks=prompt("enter a number")
+       if(marks>=90 && marks<=100)  // here we using else if for grading for a mark
+       {
+          document.write("Grade: A= "+marks)
+       }
+       else if(marks>=80 && marks<90)
+       {
+        document.write("Grade: B= "+marks)
+       }
+      else if(marks>=70 && marks<80)
+       {
+          document.write("Grade: C= "+marks)
+       }
+       else if(marks>=60 && marks<70)
+       {
+        document.write("Grade: D= "+marks)
+       }
+       else if(marks>50 && marks<60)
+       {
+        document.write("Grade: E= "+marks)
+       }
+       else if(marks>=40 && marks<50)
+       {
+        document.write("Grade: F= "+marks)
+       }
+       else if(marks>=0 && marks<40)
+       {
+        document.write("Fail: because of marks is blow of 40 "+marks)
+       }
+       else
+       {
+        document.write("Invalid Marks: OutSide the range 0-100 "+marks)
+       } 
+     </script>-->
+     <!-- <h2> Tax Calculation for car Purchase</h2>
+     <script>
+          let carName=prompt("Enter Car Name")
+          if(carName==10)
+          {
+            let priceCar=prompt("Enter car price")
+            if(priceCar>=700000 && priceCar<=1000000)
+          {
+             document.write(priceCar+(priceCar*(5%100)))
+          }
+          }
+          else
+          {
+            document.write("this is not available ")
+          }
+     </script> --> -->
+     <!-- <script>
+      let attendance = prompt("Enter your attendance:")
+if (attendance >= 75) {
+    document.write(`Eligible to sit in the exam. ${attendance}`)
+} else {
+    document.write(`Not eligible to sit in the exam.  ${attendance}`)
+}; length; length; length; length; 
+     </script>
+     <script>
+      let usernameInput = prompt("Enter your username");
+let passwordInput = prompt("Enter your Password ")
+
+let Username = "user1"
+let Password = "pass@123"
+if (Username == usernameInput && Password == passwordInput) {
+    document.write(`Authentication successful....`)
+
+} else {
+    document.write(`Authentication failed....`)
+}
+     </script> -->
+     <!-- <script>
+      let carName = prompt("Enter car Car Name : ");
+let price = prompt("Enter Car Price : ");
+if (carName == "Mahindra" && (700000 <= price && price <= 1000000)) {
+    let taxPercent = (price * 5) / 100;
+    document.write(`<h1> The tax Percent on ${brand} is : ${taxPercent}</h1>`);
+} else if (carName == "Audi" && (1000000 <= price && price <= 1500000)) {
+
+    let taxPercent = (price * 10) / 100;
+    document.write(`<h1> The tax percent on ${brand} is:${taxPercent}</h1>`);
+} else if (carName == "Jaguar" && (1500000 <= price && price <= 2000000)) {
+    let taxPercent = (price * 25) / 100;
+    document.write(`<h1> The tax percent on ${brand} is : ${taxPercent}</h1>`);
+} else if (carName== "Mercedes" && (2000000 <= price && price <= 2500000)) {
+    let taxPercent = (price * 30) / 100;
+    document.write(`<h1> The tax percent on ${brand} is : ${taxPercent}</h1>`);
+}
+     </script>-->
+     <!-- <script>
+      let num1 = Number(prompt("Enter 1st number"))
+let num2 = Number(prompt("Enter 2st number"))
+let num3 = Number(prompt("Enter 3st number"))
+if (num1 > num2 && num1 > num3) {
+    document.write(` 1st number is greatest :${num1}`);
+} else if (num2 > num1 && num2 > num3) {
+    document.write(` 2st number is greatest :${num2}`);
+} else {
+    document.write(`3rd number is greatest :${num3}`);
+}
+
+     </script>
+     <script>
+      let quiz = prompt(" Welcome Your  KBC Quiz start  Yes/No  ")
+if (quiz == "Yes") {
+    let ans1 = prompt("1- which langauage is used for development? \nA. python  \nB. Java  \nC. Javascript \nD. C++");
+    if (ans1 == "C" || ans1 == "skip") {
+        //document.write(` <h1>right answer  </h1>`);
+
+    } else {
+        document.write(` <h1> 1 wrong Answer 100000 point less </h1> `)
+
+
+    }
+    // question 2
+    let ans2 = prompt("2- which langauage is used for Bckend ? \nA. HTML  \nB. Java  \nC. CSS \nD. React");
+    if (ans2 == "B" || ans2 == "skip") {
+        // document.write(` <h1>right answer  </h1>`);
+
+
+    } else {
+        document.write(` <h1>2 wrong Answer 10000 point   less </h1> `)
+    }
+
+    //question 3
+    let ans3 = prompt("3- What is the keyword used to declare an interface in Java? \nA. Interface  \nB. Class  \nC. Abstract \nD. Extends");
+    if (ans3 == "A" || ans3 == "skip") {
+        // document.write(` <h1>right answer  </h1>`);
+
+
+    } else {
+        document.write(` <h1> 3 wrong Answer 100000 point less </h1> `)
+    }
+    //question 4
+    let ans4 = prompt("4-What is the purpose of the this keyword in Java?\nA. Refer to the current class  \nB. Refer to the parent class  \nC. Refer to the current object \nD.Refer to a static method");
+    if (ans4 == "C" || ans4 == "skip") {
+        // document.write(` <h1>right answer  </h1>`);
+
+
+    } else {
+        document.write(` <h1> 4 wrong Answer 100000 point less  </h1> `)
+    }
+
+    // question 5 
+    let ans5 = prompt("5-What is the purpose of encapsulation in Java?\nA.Protect data integrity \nB. Improve code readability  \nC. Increase code complexity \nD.Optimize program performance");
+    if (ans5 == "A" || ans5 == "skip") {
+        document.write(` <h1><center> All Currect Answer !! Win 500000 Points  </center> </h1>`);
+
+    } else {
+        document.write(`<h1> 5 wrong Answer 100000 point  less  </h1> `)
+    }
+
+
+
+} else {
+    document.write(` <h1><center>Quiz end  Try to Net Time </center></h1> `)
+}
+
+     </script> -->
+     <!-- <script>
+      let day = prompt("Enter your book issue day:")
+if (day <= 5) {
+    document.write(`<h1>Up to 5 days: ₹2/day than  day${day} Total charges.  ${day * 2}</h1>`)
+} else if (day <= 10) {
+    document.write(`<h1>6 to 10 days: ₹3/day than  day${day} Total charges.  ${day * 3}</h1>`)
+} else if (day <= 15) {
+    document.write(`<center> <h1>11 to 15 days: ₹4/day than  day${day} Total charges.  ${day * 4}</h1></center>`)
+} else if (day >= 15) {
+    document.write(`<center><h1>more than 15 days: ₹5/day than  day${day} Total charges.  ${day * 5}</h1></center>`)
+}
+
+else {
+    document.write(`Invailed input`)
+}
+     </script> -->
+     <!-- <script>
+      let option = prompt("Login with : \n1. phone No \n2. Email \n3. Exit");
+
+if (option == 1) {
+    let phone = prompt("Enter your phone number ")
+    let otp = prompt("Enter your OTP Code")
+    if (phone == "8171617359" && otp == "1234") {
+        document.write(`<h1> login successfully with phone number </h1>`)
+    } else {
+        document.write(`<h1> Invailed phone number and otp </h1>`)
+    }
+
+} else if (option == 2) {
+    let email = prompt("Enter your Email ID  ")
+    let pass = prompt("Enter your Password  ")
+    if (email == "user@example.com" && pass == "password123") {
+        document.write(`<h1> login successfully  with email id</h1>`)
+    } else {
+        document.write(`<h1> Invailed email and password </h1>`)
+    }
+
+} else {
+    document.write(`<h1> Exiting the program. Have a nice day!"</h1>`)
+}
+     </script> -->
+     <!-- <script>
+      let num1 = Number(prompt("Enter 1st number"))
+let num2 = Number(prompt("Enter 2st number"))
+let num3 = Number(prompt("Enter 3st number"))
+if ((num1 > num2 && num1 < num3) || (num1 < num2 && num1 > num3)) {
+    document.write(` 1st number is middle :${num1}`);
+} else if ((num2 > num1 && num2 < num3) || (num2 < num1 && num2 > num3)) {
+    document.write(` 2st number is middle :${num2}`);
+} else {
+    document.write(`3rd number is middle :${num3}`);
+}
+     </script> -->
+     <!-- <script>
+      let age = prompt("Enter your age: ")
+let qualification = prompt("Enter your graduation Qualification:")
+let nationality = prompt("Enter your Nationality :")
+
+
+if (age >= 21 && age <= 32) {
+    if (qualification == "Yes" || qualification == "YES" || qualification == "yes" && nationality == "Indian" || nationality == "indian") {
+        //document.write(`<h1>if eligible, proceed to Prelims.</h1>`)
+        let prelimsScore = prompt("Enter your  Prelims score more then 200 :")
+        if (prelimsScore >= 200) {
+            //  document.write(`<h1> proceed to Mains. </h1>`)
+            let mainsScore = prompt("Enter your Mains score more then 600:")
+            if (mainsScore >= 600) {
+                // document.write(`<h1> proceed to Interview. </h1>`)
+                let interiewScore = prompt("Enter your Mains score  more then 1000:")
+                if (interiewScore >= 1000) {
+                    document.write(`<h1> Congratulations! You have cleared the UPSC  </h1>`)
+
+                } else {
+                    document.write(`<h1> You failed the Interview. </h1>`)
+                }
+
+            } else {
+                document.write(`<h1> You failed the Mains.. </h1>`)
+            }
+        } else {
+            document.write(`<h1> You failed the Prelims.. </h1>`)
+        }
+
+    } else {
+        document.write(`<h1> if ineligible, display the reason for ineligibility.</h1>`)
+
+    }
+
+
+
+} else {
+    document.write(`<h1> Invailed input </h1>`)
+
+} 
+
+     </script> -->
+</body>
+</html>

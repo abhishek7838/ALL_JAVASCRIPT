@@ -1,0 +1,5 @@
+write a program to check the divisibility of 4 and 5:
+write a program to check the number is odd or even.
+write a program to find out the last digit of a number ex-2345454
+write a 
+wap to find the middle number from three number

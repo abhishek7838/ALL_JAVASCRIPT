@@ -1,0 +1,17 @@
+//what is JAVASCRIPT?
+// JAVASCRIPT is a server-side and client side scripting and object oriented Language
+// used create web application and desktop application 
+//also used to create android app using JS library.
+
+//FEATURES.
+ //1.Server side(backend ) and client side(fronted) supportive.
+ //2. Easily integrated with  HTML-CSS
+ // 3.Dynamically typed languafe.
+ // 4. Event-Driven programming.
+ // 5. synchronous(sync) and asynchronous (async)
+ // 6. By default signal threaded and also used as multithreaded.
+ // 7. Top Libraries : Reactjs, vuejs, angularjs, eletronjs,
+
+//type of applying javascript:
+  // 1. Internal js
+  // 2. External Js
