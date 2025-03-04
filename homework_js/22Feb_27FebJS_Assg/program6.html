@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let str=prompt("enter Strings to search a specific character")
+        let checkChar=prompt("enter a char to search in strings ")
+        let countChar=0
+        for(let i=0;i<str.length;i++)
+    {
+        if(checkChar==str[i])
+    {
+        countChar++
+        document.write(`${checkChar} , it is exists in this Strings -- ${str}`)
+        break
+    }
+    }
+    if(countChar==0)
+    {
+        document.write(`${checkChar} , it is not exists in this Strings -- ${str}`)
+    }
+        
+    </script>
+</body>
+</html>

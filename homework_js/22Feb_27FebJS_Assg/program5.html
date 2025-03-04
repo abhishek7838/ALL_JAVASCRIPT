@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str=" i am abhishek i am developer"
+        let str2=""
+        let arr=[]
+        let arr_unDup=[]
+        let new_Str=""
+        for(let i=0;i<str.length;i++)
+    {
+      
+        str2+=str[i]
+      
+    }
+  for(let i=0;i<str2.length;i++)
+  {
+    arr.push(str2[i])
+  }
+  for(let i=0;i<arr.length;i++)
+  {
+    for(let j=i+1;j<arr.length;j++)
+  {
+    if(arr[i]==arr[j])
+  {
+    arr[j]=0
+  }
+  }
+
+  }
+  for(let i=0;i<arr.length;i++)
+  {
+    if(arr[i]!=0)
+  {
+    arr_unDup.push(arr[i])
+  }
+  }
+  for(let i=0;i<arr_unDup.length;i++)
+  {
+    new_Str+=arr_unDup[i]
+  }
+  document.write(`Input String==>   ${str}<br>`)
+  document.write(`OutPut Without Duplicate letters==>   ${new_Str}`)
+    </script>
+    
+</body>
+</html>

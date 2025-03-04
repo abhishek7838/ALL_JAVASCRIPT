@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str="abhishek"
+        let arr=[]
+        let temp
+        let newStr=""
+        for(let i=0;i<str.length;i++)
+    {
+        arr.push(str[i])  
+    }
+   //document.write(`${arr}<br>${arr.length}<br>`)
+
+   
+        for(let i=0;i<arr.length;i++)
+    {
+        for(let j=1+i;j<arr.length;j++)
+    {
+        if(arr[i]>=arr[j])
+    {
+        temp=arr[i]
+        arr[i]=arr[j]
+        arr[j]=temp
+    }
+    }
+}
+for(let i=0;i<arr.length;i++)
+{
+    newStr+=arr[i]
+}
+    document.write(`old Strings: ${str}<br> after assending letters of strings: ${newStr}`)
+    
+    </script>
+</body>
+</html>

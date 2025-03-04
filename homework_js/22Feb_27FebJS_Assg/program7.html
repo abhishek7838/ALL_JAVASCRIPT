@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let str="hello abhishek"
+        let str2=str.toLocaleLowerCase()
+        let arr=[]
+        let temp
+        for(let i=0;i<str2.length;i++)
+    {
+       if(str2[i]!=' ')
+       {
+        arr.push(str2[i])
+       }
+
+    }
+    for(let i=0;i<arr.length;i++)
+    {
+        for(j=i+1;j<arr.length;j++)
+    {
+        if(arr[i]>=arr[j])
+    {
+        temp=arr[i]
+        arr[i]=arr[j]
+        arr[j]=temp
+    }
+    }
+    }
+    document.write(`Strings Is ->  ${str}<br>Smallest Character in strings-> ${arr[0]}<br> greatest Character in strings-> ${arr[arr.length-1]}`)
+    </script>
+</body>
+</html>
